@@ -1,4 +1,6 @@
 # Kubernetes Admission Control and Archiving Showcase
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsyncier%2Fk8s-admission-control-showcase.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsyncier%2Fk8s-admission-control-showcase?ref=badge_shield)
+
 
 Deploys a custom Kubernetes validating admission controller. 
 The controller will review deployments for namespaces with the label `admission-webhook: enabled`.
@@ -88,3 +90,7 @@ stored in a config map cannot be organized in directories.
 See 
 [kubernetes/kubernetes#62421](https://github.com/kubernetes/kubernetes/issues/62421)
 for reference
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsyncier%2Fk8s-admission-control-showcase.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsyncier%2Fk8s-admission-control-showcase?ref=badge_large)
